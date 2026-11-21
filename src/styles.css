@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @theme {
   --color-page: #131a24;
   --color-surface: #202936;
@@ -10,7 +9,6 @@
   --color-brand: #3399ff;
   --color-accent: #ff880a;
 }
-
 @layer base {
   body {
     margin: 0;
@@ -18,4 +16,10 @@
     color: var(--color-ink);
     font-family: Arial, sans-serif;
   }
+}
+
+
+@theme {
+  --font-display: "Bricolage Grotesque", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", Arial, sans-serif;
 }
