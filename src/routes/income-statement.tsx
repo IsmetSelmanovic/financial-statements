@@ -12,6 +12,7 @@ function IncomeStatement() {
       <h1 className="font-display text-4xl leading-tight">Income Statement</h1>
       <p className="mt-2 text-lg text-ink-soft">For the year ended December 31, 20X5</p>
 <p className="mt-4 text-ink-soft">Amounts are whole US dollars. Expenses are deductions shown in parentheses. This example assumes no other income, expenses, interest, or income taxes.</p>
+<div className="max-w-2xl mx-auto mt-10 border border-edge rounded-md bg-surface overflow-x-auto">
 <table>
   <thead><tr><th scope="col">Account</th><th scope="col">Amount (USD)</th></tr></thead>
   <tbody>
@@ -38,5 +39,6 @@ function IncomeStatement() {
   </tbody>
 </table>
     </div>
+</div>
   )
 }
